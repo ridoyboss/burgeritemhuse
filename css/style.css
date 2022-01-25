@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+
+}
+a{
+	text-decoration: none;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+/**************************
+**HEDER SECTION CODE******
+**************************/
+
+header{
+	width: 100%;
+	padding: 2rem 0;
+	position: absolute;
+}
+.containar{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.bargar span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3d2514;
+
+}
+
+.menu_right{
+	text-align: right;
+}
+.bargar img{
+	vertical-align: middle;
+	margin-right: 1rem;
+}
+.bargar{
+	margin-bottom: 20px;
+}
+.menu_col ul li{
+	display: inline-block;
+	margin-left: 3rem;
+	color: #3d2514;
+}
+.menu_col ul li a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+
+/**************************
+**BENNER SECTION CODE******
+**************************/
+
+#banner{
+	width: 100%;
+	padding: 100px 0;
+	background-image: url(../img/banner_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+
+}
+.banner_content{
+	display: flex;
+
+}
+.banner_left{
+	flex-basis: 50%;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+}
+.banner_right{
+	flex-basis: 50%;
+	padding-top: 2rem;
+
+}
+.banner_left p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 300;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+	padding: 2px 7px;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+.banner_left h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	font-weight: 700;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px rgba(255, 255, 255, 0.9);
+
+}
+.banner_left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	font-weight: 400;
+	color: #3d2514;
+	text-transform: uppercase;
+	text-shadow: 4px 4px rgba(255, 255, 255, 0.7);
+
+}
+
+
+/**************************
+**BURGER SECTION CODE******
+**************************/
+#burger{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.burger-content{
+	display: flex;
+}
+
+.burger-left{
+	flex-basis: 50%;
+}
+
+.burger-right{
+	flex-basis: 50%;
+}
+
+.burger-item{
+	position: relative;
+	margin: 30px;
+}
+
+.text-overlay{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+
+.text-overlay h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 200px;
+	text-transform: uppercase;
+	color: #ffff;
+
+}
+
+.text-overlay h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	font-weight: 300px;
+	text-transform: uppercase;
+	color: #ffff;
+
+
+}
+
+/******************************
+**BURGER-GALLARY SECTION CODE**
+*******************************/
+#tripole-burger{
+	width: 100%;
+	padding: 60px 60px;
+}
+
+
+.item-section{
+	text-align: center;
+}
+
+.item-section span{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    background-color: #ffc045;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    width: 1px;
+    color: #3d2514;
+
+}
+
+.item-section h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	color: #3d2514;
+	text-transform: uppercase;
+	margin: 32PX 0PX 16PX 0PX;
+	letter-spacing: 1PX;
+
+
+}
+
+.item-section P{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16PX;
+	color: #3d2514;
+}
+
+.burger-gallary{
+	margin: 32px 0px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.gallary-item{
+	text-align: center;
+}
+
+.img-item{
+	width: 100%;
+    margin: auto;
+}
+
+.img-item-1{
+	width: 100%;
+    margin: auto;
+    padding-top: 56px;
+}
+.img-item-2{
+	width: 100%;
+    margin: auto;
+    padding-top: 65px;
+}
+
+.gallary-item h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	color: #3d2514;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.gallary-item p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16PX;
+	color: #3d2514;
+}
+
+.gallary-item .oder-btn{
+	font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    font-size: 16px;
+    color: #ffff;
+    padding: 8px 20px 8px 16px;
+    margin-top: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+/******************************
+**SLIDER-EVENTS SECTION CODE**
+*******************************/
+#slider-events{
+     width: 100%;
+     padding: 80px 0px;
+ }
+ .slider-all{
+	box-shadow: 4px 4px 8px -1px gray;
+}
+ .burger-slid-item {
+	display: flex;
+	padding: 15px;
+}
+ .burger-slid-item-left{
+     flex-basis: 50%;
+     padding: 25px;
+ }
+ .burger-slid-item-left span {
+	color: #3d3d3d;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 29px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: -9px;
+	display: inline-block;
+}
+ .burger-slid-item-left h3{
+     color: #3d2514;
+     font-family: 'Alfa Slab One', cursive;
+     font-size: 42px;
+     font-weight: 400;
+     text-transform: uppercase;
+ }
+ .burger-slid-item-left p{
+     color: #3d3d3d;
+     font-size: 21px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     margin-top: 20px;
+ }
+ .burger-slid-item-right{
+     flex-basis: 50%;
+ }
+ .owl-theme .owl-nav {
+	display: none;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+	position: absolute;
+	bottom: 22px;
+	left: 28px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #ffc045 !important;
+}
+
+
+/******************************
+** FORM SECTION CODE**
+*******************************/
+
+#form-section{
+	width: 100%;
+	
+}
+
+.bagrunnd-add{
+	background-image: url(../img/burger-bg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 150px 10px;
+	display: 100vh;
+}
+
+
+.item-body{
+	text-align: center;
+}
+.item-body h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	font-weight: 10;
+	text-transform: uppercase;
+	color: #3d2514;
+
+
+
+}
+
+.item-body h3{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+
+
+
+.form-wraper{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form-wraper form{
+	text-align: center;
+	margin-top: 32px;
+	
+}
+
+.form-stion{
+	margin-bottom: 16px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.form-control{
+	width: 48%;
+	padding: 16px;
+	margin-left: 16px;
+	border: 1px solid #bebebe;
+	border-radius: 4px;
+	
+}
+
+.form-control::placeholder, .form-control{
+	color: #3d3d3d;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+.form-btn{
+background-color: #bf2222;
+color: #fff;
+font-weight: 400px;
+font-size: 16px;
+}
+
+
+/******************************
+** FOOTER SECTION CODE**
+*******************************/
+
+footer{
+	width: 100%;
+}
+
+.footer-main{
+     background-image: url("../img/butm-bg.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 50px 30px 30px 30px;
+ }
+
+ .footer-cont{
+     display: flex;
+     color: #fff;
+     align-items: flex-end;
+ }
+
+  .footer-cont-left{
+     flex-basis: 70%;
+ }
+ .footer-cont-left img{
+     margin-bottom: 60px;
+ }
+ .footer-cont-left p {
+	font-size: 17px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	width: 522px;
+    line-height: 26px;
+}
+ .footer-cont-right{
+     flex-basis: 30%;
+ }
+ .cont-social{
+     display: flex;
+ }
+ .cont-social-icon i{
+     margin-right: 20px;
+     margin-bottom: 15px;
+ }
+ .cont-social-text{
+     text-align: left;
+     margin-bottom: 15px;
+ }
+ .last-footer-area{
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+ }
+ .last-footer-cont p{
+     font-size: 17px;
+     color: #fff !important;
+     font-family: 'Bebas Neue', cursive;
+     font-weight: 400;
+     margin-top: 80px;
+     letter-spacing: 1px;
+ }
+ .last-footer-icon{
+     margin-top: 80px;
+     cursor: pointer;
+ }
+ .last-footer-icon i{
+     margin-left: 10px;
+     height: 30px;
+     width: 30px;
+     border-radius: 100%;
+     background-color: #fff;
+     color: #000;
+     text-align: center;
+     line-height: 30px;
+ }
+
